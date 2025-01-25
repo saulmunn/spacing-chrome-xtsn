@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Tweet Spacer",
+  "version": "1.0",
+  "description": "Adds vertical space between tweets",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://x.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+/* Target tweet containers */
+article[data-testid="tweet"] {
+    margin-bottom: 200px !important;
+  }
+  
+  /* Handle both light and dark mode */
+  [data-testid="tweet"]:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  
+  [data-theme="dark"] [data-testid="tweet"]:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
