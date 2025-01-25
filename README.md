@@ -1,4 +1,4 @@
-Chrome extension that adds 500px of space between each tweet, so that you can scroll to the next tweet without the following tweet automatically showing up on your timeline... unless you decide to scroll again.
+A Chrome extension that adds 500px of space between each tweet, so that you can scroll to the next tweet without the following tweet automatically showing up on your timeline... unless you decide to scroll again.
 
 Installation instructions:
 * Download the files by clicking the big green "Code" button in this repo, then "Download ZIP":
