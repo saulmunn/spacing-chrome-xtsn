@@ -1,6 +1,6 @@
 /* Target tweet containers */
 article[data-testid="tweet"] {
-    margin-bottom: 300px !important;
+    margin-bottom: 500px !important;
   }
   
   /* Handle both light and dark mode */
