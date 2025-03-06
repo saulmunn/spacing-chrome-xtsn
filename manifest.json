@@ -1,14 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Twitter Tweet Spacer",
+  "name": "Social Media Spacer",
   "version": "1.0",
-  "description": "Adds vertical space between tweets",
-  "permissions": [
-    "activeTab"
-  ],
+  "description": "Adds vertical space between posts on social medias.",
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*", "https://x.com/*"],
+      "matches": [
+        "https://twitter.com/*",
+        "https://x.com/*",
+        "https://instagram.com/*"
+      ],
       "css": ["styles.css"],
       "js": ["content.js"]
     }

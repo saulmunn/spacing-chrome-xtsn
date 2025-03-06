@@ -1,13 +1,34 @@
+/* --- Twitter Styles --- */
+
 /* Target tweet containers */
 article[data-testid="tweet"] {
-    margin-bottom: 500px !important;
-  }
-  
-  /* Handle both light and dark mode */
-  [data-testid="tweet"]:not(:last-child) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  }
-  
-  [data-theme="dark"] [data-testid="tweet"]:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  }
+  margin-bottom: 500px !important;
+}
+
+/* Handle borders in both light and dark mode for tweets */
+[data-testid="tweet"]:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] [data-testid="tweet"]:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* --- Instagram Styles --- */
+
+/* Target Instagram post containers */
+/* Adjust the selector as needed based on Instagram's DOM structure.
+   Here, we assume posts are <article> elements inside a <main> element. */
+main article {
+  margin-bottom: 20px !important;  /* Use the same value as applied by JS or adjust as desired */
+}
+
+/* Optionally, add border styling similar to Twitter for Instagram posts */
+main article:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Adjust for dark mode if needed */
+[data-theme="dark"] main article:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
