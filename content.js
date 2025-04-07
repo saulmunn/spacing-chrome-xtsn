@@ -9,8 +9,6 @@
           );
           tweets.forEach((tweet) => {
             if (!tweet.dataset.spacingApplied) {
-              // Apply CSS spacing (e.g., bottom margin) so that spacing is visible
-              tweet.style.marginBottom = "20px";
               tweet.dataset.spacingApplied = "true";
             }
           });

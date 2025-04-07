@@ -2,7 +2,7 @@
 
 /* Target tweet containers */
 article[data-testid="tweet"] {
-  margin-bottom: 500px !important;
+  margin-bottom: 1000px !important;
 }
 
 /* Handle borders in both light and dark mode for tweets */
