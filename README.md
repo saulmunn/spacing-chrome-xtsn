@@ -1,4 +1,4 @@
-A Chrome extension that adds 500px of space between social media posts (e.g. Instagram, Twitter), so that the next post doesn't automatically show up unless you decide to scroll.
+A Chrome extension that adds 1000px of space between social media posts (e.g. Instagram, Twitter), so that the next post doesn't automatically show up unless you decide to scroll.
 
 Installation instructions:
 * Download the files by clicking the big green "Code" button in this repo, then "Download ZIP":
